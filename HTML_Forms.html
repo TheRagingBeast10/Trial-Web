@@ -1,0 +1,42 @@
+<html>  
+    <head>
+            <title> HTML Forms Exercise </title>
+    </head>
+    <body>
+            <h1>Race Registration</h1>
+            <form action="">
+                <p>
+                    <label for="First">First Name</label>
+                    <input type="text" placeholder="First Name" id="First" required>
+                    <label for="Last">Last Name</label>
+                    <input type="text" placeholder="Last Name" id="Last" required>        
+                </p>
+                <h3>Select a race:</h3>
+                <p>
+                    <label for="Fun Run 5k">Fun Run 5k</label>
+                    <input type="radio" id="Fun Run 5k" name="Race"><br>
+                    <label for="Half Marathon">Half Marathon</label>
+                    <input type="radio" id="Half Marathon" name="Race"><br>
+                    <label for="Full Marathon">Full Marathon</label>
+                    <input type="radio" id="Full Marathon" name="Race"><br>
+                </p>
+                <div>
+                    <label for="Email">Email</label>
+                    <input type="email" placeholder="Email" id="Email" required>
+                    <label for="Password">Password</label>
+                    <input type="password" id="Password" required>
+                </div>
+                <div>
+                    <label for="age">Select Age Group</label>
+                    <select name="age" id="age">
+                        <option value="18-25">18-25</option>
+                        <option value="26-30">26-30</option>
+                        <option value="31-40">31-40</option>
+                        <option value="41-60">41-60</option>
+                    </select>   
+                </div>
+                <div>
+                    <button>Register</button>
+                </div>      
+            </form>  
+    </body>       
